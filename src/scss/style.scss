@@ -1,0 +1,23 @@
+$bg-color: blue;
+$container-margin: 0px 0px 0px 0px;
+
+
+$bg-image: url(/assets/hero.jpg);
+
+.hero-image {
+   background-image: $bg-image;
+   height: 800px;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+.container {
+  margin: $container-margin !important;
+  padding: $container-margin !important;
+}
+
+.no-padding {
+  padding: 0px 0px 0px 0px;
+}

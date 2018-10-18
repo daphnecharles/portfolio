@@ -1,0 +1,16 @@
+.hero-image {
+  background-image: url(/assets/hero.jpg);
+  height: 800px;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  background-attachment: fixed; }
+
+.container {
+  margin: 0px 0px 0px 0px !important;
+  padding: 0px 0px 0px 0px !important; }
+
+.no-padding {
+  padding: 0px 0px 0px 0px; }
