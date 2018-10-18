@@ -4,6 +4,10 @@ $container-margin: 0px 0px 0px 0px;
 
 $bg-image: url(assets/hero.jpg);
 
+body {
+  background-color: $bg-color;
+}
+
 .hero-image {
    background-image: $bg-image;
    height: 800px;
