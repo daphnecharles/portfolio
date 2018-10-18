@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: url(/assets/hero.jpg);
+  background-image: url(assets/hero.jpg);
   height: 800px;
   background-position: center;
   /* Center the image */
