@@ -11,6 +11,13 @@
   "license": "ISC",
   "homepage": "https://daphnecharles.github.io/portfolio",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "@fortawesome/fontawesome-free": "^5.4.1",
+    "gh-pages": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
   }
 }
