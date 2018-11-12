@@ -1,31 +1,201 @@
-$bg-color: blue;
+$fa-font-path: "../webfonts";
+@import "fontawesome.scss";
+@import "solid.scss";
+@import "brands.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+$main-color: #686de0;
+$sec-color: #c7ecee;
+$third-color: #4834d4;
+$red: #eb4d4b;
+$pink: #ff7979;
 $container-margin: 0px 0px 0px 0px;
 
+$darkred: darken( $red, 20% );
+$lightred: lighten( $red, 20% );
+$darkblue: darken( $sec-color, 20% );
 
-$bg-image: url(assets/hero.jpg);
 
-body {
-  background-color: $bg-color;
+$bg-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
+
+#footer {
+  background-color: $sec-color;
+  padding: 50px 0px 50px 0px;
 }
+
+
+#twitter{
+  color: #1da1f2;
+}
+
+#contact {
+  padding: 100px 300px 100px 300px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.mont-font {
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  background-color: $pink;
+  color: white;
+}
+
+.button:focus {
+  border-color: $red;
+  outline: none;
+}
+
+button:hover {
+  background-color: $red;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+  padding: 20px;
+}
+.fa-linkedin:hover {
+  color: lighten( #0077b5, 20% );
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+  border-bottom: none; !important
+}
+
+.fa-github-square {
+  color: #0077b5;
+  padding: 20px;
+}
+.fa-github-square:hover {
+  color: lighten( #0077b5, 20% );
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+.fa-envelope {
+  color: #0077b5;
+  padding: 20px;
+}
+.fa-envelope:hover {
+  color: lighten( #0077b5, 20% );
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
 
 .padding-100 {
   padding: 100px;
 }
 
-.hero-image {
+.margin-50 {
+  margin: 50px 50px 50px 0px;
+}
+
+.margin-100 {
+  margin: 100px 100px 100px 100px;
+}
+.padding-btm {
+  padding-bottom: 50px;
+}
+
+.padding-top {
+  padding-top: 50px;
+}
+
+.padding-side {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:visited {
+    color: $red;
+}
+
+/* mouse over link */
+a:hover {
+    color: $darkred;
+    text-decoration: none;
+    border-bottom: solid 2px $darkblue;
+}
+
+.hero {
    background-image: $bg-image;
-   height: 800px;
+   height: 700px;
    background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-attachment: fixed;
+  border-bottom: 10px solid $darkblue;
  }
 
-.container {
-  margin: $container-margin !important;
-  padding: $container-margin !important;
-}
 
 .no-padding {
   padding: 0px 0px 0px 0px;
+}
+
+
+.card i {
+  color: $pink;
+}
+
+.nav-pills .nav-link.active {
+  background-color: $pink;
+}
+
+a {
+  color: $red;
+}
+
+.media-body {
+  padding: 40px 150px 40px 50px;
+}
+
+.card {
+  background-color: #dff9fb;
+  border: none;
+  padding: 40px;
+  margin: 0px 100px 50px 100px;
+}
+
+.badge-primary {
+  background-color: $darkblue;
+}
+
+input.form-control:focus {
+border-color: $darkblue;
+box-shadow: 0 0 0 0.2rem $sec-color;
+}
+
+textarea.form-control:focus {
+border-color: $darkblue;
+box-shadow: 0 0 0 0.2rem $sec-color;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.resume {
+  border: solid 4px;
+  box-shadow: 5px 10px #888888;
+}
+
+.card-header {
+  background-color: white;
+  border: solid 2px grey;
+  box-shadow: 2px 5px grey;
+}
+
+.align-self-start{
+  border: 4px solid $darkblue;
+  box-shadow: 10px 5px $sec-color;
 }

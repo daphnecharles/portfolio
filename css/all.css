@@ -2,7 +2,6 @@
  * Font Awesome Free 5.4.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .fa,
 .fas,
 .far,
@@ -101,47 +100,66 @@
   margin-left: .3em; }
 
 .fa-spin {
-  animation: fa-spin 2s infinite linear; }
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
 
 .fa-pulse {
-  animation: fa-spin 1s infinite steps(8); }
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 @keyframes fa-spin {
   0% {
-    transform: rotate(0deg); }
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
   100% {
-    transform: rotate(360deg); } }
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
 
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  transform: rotate(90deg); }
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
 
 .fa-rotate-180 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-  transform: rotate(180deg); }
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
 
 .fa-rotate-270 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-  transform: rotate(270deg); }
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
 
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  transform: scale(-1, 1); }
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
 
 .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  transform: scale(1, -1); }
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
 
 .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  transform: scale(-1, -1); }
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
 
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
-  filter: none; }
+  -webkit-filter: none;
+          filter: none; }
 
 .fa-stack {
   display: inline-block;
@@ -3900,11 +3918,25 @@ readers do not read off random characters that represent icons */
   overflow: visible;
   position: static;
   width: auto; }
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
 
-/*!
- * Font Awesome Free 5.4.1 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
+.fab {
+  font-family: 'Font Awesome 5 Brands'; }
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400; }
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
@@ -3916,163 +3948,3 @@ readers do not read off random characters that represent icons */
 .fas {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900; }
-
-/*!
- * Font Awesome Free 5.4.1 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: normal;
-  src: url("../webfonts/fa-brands-400.eot");
-  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
-
-.fab {
-  font-family: 'Font Awesome 5 Brands'; }
-
-#footer {
-  background-color: #c7ecee;
-  padding: 50px 0px 50px 0px; }
-
-#twitter {
-  color: #1da1f2; }
-
-#contact {
-  padding: 100px 300px 100px 300px; }
-
-p {
-  font-size: 18px;
-  font-weight: 200; }
-
-.mont-font {
-  font-family: 'Montserrat', sans-serif; }
-
-button {
-  background-color: #ff7979;
-  color: white; }
-
-.button:focus {
-  border-color: #eb4d4b;
-  outline: none; }
-
-button:hover {
-  background-color: #eb4d4b; }
-
-.fa-linkedin {
-  color: #0077b5;
-  padding: 20px; }
-
-.fa-linkedin:hover {
-  color: #1cb1ff;
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-  border-bottom: none; }
-
-.fa-github-square {
-  color: #0077b5;
-  padding: 20px; }
-
-.fa-github-square:hover {
-  color: #1cb1ff;
-  transition-duration: 0.5s;
-  transform: scale(1.2); }
-
-.fa-envelope {
-  color: #0077b5;
-  padding: 20px; }
-
-.fa-envelope:hover {
-  color: #1cb1ff;
-  transition-duration: 0.5s;
-  transform: scale(1.2); }
-
-.padding-100 {
-  padding: 100px; }
-
-.margin-50 {
-  margin: 50px 50px 50px 0px; }
-
-.margin-100 {
-  margin: 100px 100px 100px 100px; }
-
-.padding-btm {
-  padding-bottom: 50px; }
-
-.padding-top {
-  padding-top: 50px; }
-
-.padding-side {
-  padding-left: 100px;
-  padding-right: 100px; }
-
-.nav-item {
-  font-weight: bold;
-  font-size: 20px; }
-
-a:visited {
-  color: #eb4d4b; }
-
-/* mouse over link */
-a:hover {
-  color: #bb1715;
-  text-decoration: none;
-  border-bottom: solid 2px #79d1d6; }
-
-.hero {
-  background-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
-  height: 700px;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  border-bottom: 10px solid #79d1d6; }
-
-.no-padding {
-  padding: 0px 0px 0px 0px; }
-
-.card i {
-  color: #ff7979; }
-
-.nav-pills .nav-link.active {
-  background-color: #ff7979; }
-
-a {
-  color: #eb4d4b; }
-
-.media-body {
-  padding: 40px 150px 40px 50px; }
-
-.card {
-  background-color: #dff9fb;
-  border: none;
-  padding: 40px;
-  margin: 0px 100px 50px 100px; }
-
-.badge-primary {
-  background-color: #79d1d6; }
-
-input.form-control:focus {
-  border-color: #79d1d6;
-  box-shadow: 0 0 0 0.2rem #c7ecee; }
-
-textarea.form-control:focus {
-  border-color: #79d1d6;
-  box-shadow: 0 0 0 0.2rem #c7ecee; }
-
-html {
-  scroll-behavior: smooth; }
-
-.resume {
-  border: solid 4px;
-  box-shadow: 5px 10px #888888; }
-
-.card-header {
-  background-color: white;
-  border: solid 2px grey;
-  box-shadow: 2px 5px grey; }
-
-.align-self-start {
-  border: 4px solid #79d1d6;
-  box-shadow: 10px 5px #c7ecee; }
