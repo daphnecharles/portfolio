@@ -3931,84 +3931,33 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
-#footer {
-  background-color: #c7ecee;
-  padding: 50px 0px 50px 0px; }
+html {
+  scroll-behavior: smooth; }
 
-#twitter {
-  color: #1da1f2; }
-
-#contact {
-  padding: 100px 300px 100px 300px; }
+body {
+  font-family: 'Montserrat', sans-serif; }
 
 p {
   font-size: 18px;
   font-weight: 200; }
 
-.mont-font {
-  font-family: 'Montserrat', sans-serif; }
-
 button {
-  background-color: #ff7979;
+  background-color: #eb4d4b;
   color: white; }
 
 .button:focus {
-  border-color: #eb4d4b;
+  border-color: #bb1715;
   outline: none; }
 
 button:hover {
-  background-color: #eb4d4b; }
-
-.fa-linkedin {
-  color: #0077b5;
-  padding: 20px; }
-
-.fa-linkedin:hover {
-  color: #1cb1ff;
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-  border-bottom: none; }
-
-.fa-github-square {
-  color: #0077b5;
-  padding: 20px; }
-
-.fa-github-square:hover {
-  color: #1cb1ff;
-  transition-duration: 0.5s;
-  transform: scale(1.2); }
-
-.fa-envelope {
-  color: #0077b5;
-  padding: 20px; }
-
-.fa-envelope:hover {
-  color: #1cb1ff;
-  transition-duration: 0.5s;
-  transform: scale(1.2); }
-
-.padding-100 {
-  padding: 100px; }
-
-.margin-50 {
-  margin: 50px 50px 50px 0px; }
-
-.margin-100 {
-  margin: 100px 100px 100px 100px; }
-
-.padding-btm {
-  padding-bottom: 50px; }
-
-.padding-top {
-  padding-top: 50px; }
-
-.padding-side {
-  padding-left: 100px;
-  padding-right: 100px; }
+  background-color: #bb1715; }
 
 .nav-item {
   font-weight: bold;
   font-size: 20px; }
+
+a {
+  color: #eb4d4b; }
 
 a:visited {
   color: #eb4d4b; }
@@ -4019,39 +3968,39 @@ a:hover {
   text-decoration: none;
   border-bottom: solid 2px #79d1d6; }
 
-.hero {
+#hero {
   background-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
-  height: 700px;
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
-  border-bottom: 10px solid #79d1d6; }
-
-.no-padding {
-  padding: 0px 0px 0px 0px; }
-
-.card i {
-  color: #ff7979; }
+  border-bottom: 10px solid #79d1d6;
+  height: 700px; }
 
 .nav-pills .nav-link.active {
-  background-color: #ff7979; }
-
-a {
-  color: #eb4d4b; }
-
-.media-body {
-  padding: 40px 150px 40px 50px; }
+  background-color: #f5a8a7; }
 
 .card {
-  background-color: #dff9fb;
-  border: none;
-  padding: 40px;
-  margin: 0px 100px 50px 100px; }
+  background-color: #c7ecee;
+  border: none; }
 
-.badge-primary {
-  background-color: #79d1d6; }
+.card i {
+  color: #f5a8a7; }
+
+.card i:hover {
+  color: #bb1715;
+  transition-duration: 0.5s;
+  transform: scale(1.2); }
+
+.card-header {
+  background-color: white;
+  border: solid 2px #c7ecee;
+  box-shadow: 2px 5px #79d1d6; }
+
+.card-header:hover {
+  background-color: #bb1715;
+  color: white; }
 
 input.form-control:focus {
   border-color: #79d1d6;
@@ -4061,18 +4010,34 @@ textarea.form-control:focus {
   border-color: #79d1d6;
   box-shadow: 0 0 0 0.2rem #c7ecee; }
 
-html {
-  scroll-behavior: smooth; }
-
-.resume {
-  border: solid 4px;
-  box-shadow: 5px 10px #888888; }
-
-.card-header {
-  background-color: white;
-  border: solid 2px grey;
-  box-shadow: 2px 5px grey; }
-
-.align-self-start {
+#portrait {
   border: 4px solid #79d1d6;
-  box-shadow: 10px 5px #c7ecee; }
+  box-shadow: 10px 5px #c7ecee;
+  height: 200px; }
+
+#footer {
+  background-color: #c7ecee; }
+
+.fa-linkedin {
+  color: #0077b5; }
+
+.fa-linkedin:hover {
+  color: #1cb1ff;
+  transition-duration: 0.5s;
+  transform: scale(1.2); }
+
+.fa-github-square {
+  color: #0077b5; }
+
+.fa-github-square:hover {
+  color: #1cb1ff;
+  transition-duration: 0.5s;
+  transform: scale(1.2); }
+
+.fa-envelope {
+  color: #0077b5; }
+
+.fa-envelope:hover {
+  color: #1cb1ff;
+  transition-duration: 0.5s;
+  transform: scale(1.2); }

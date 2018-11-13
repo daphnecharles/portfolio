@@ -5,32 +5,27 @@ $fa-font-path: "../webfonts";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 
-$main-color: #686de0;
-$sec-color: #c7ecee;
-$third-color: #4834d4;
+
+$offwhite: #c7ecee;
+$offblue: darken( $offwhite, 20% );
+
 $red: #eb4d4b;
-$pink: #ff7979;
-$container-margin: 0px 0px 0px 0px;
-
 $darkred: darken( $red, 20% );
-$lightred: lighten( $red, 20% );
-$darkblue: darken( $sec-color, 20% );
+$darkerred: darken( $darkred, 20% );
+$pink: lighten( $red, 20% );
 
+$blue: #0077b5;
+$lightblue: lighten( $blue, 20% );
 
 $bg-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
 
-#footer {
-  background-color: $sec-color;
-  padding: 50px 0px 50px 0px;
+
+html {
+  scroll-behavior: smooth;
 }
 
-
-#twitter{
-  color: #1da1f2;
-}
-
-#contact {
-  padding: 100px 300px 100px 300px;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -38,83 +33,27 @@ p {
   font-weight: 200;
 }
 
-.mont-font {
-  font-family: 'Montserrat', sans-serif;
-}
-
 button {
-  background-color: $pink;
+  background-color: $red;
   color: white;
 }
 
 .button:focus {
-  border-color: $red;
+  border-color: $darkred;
   outline: none;
 }
 
 button:hover {
-  background-color: $red;
-}
-
-.fa-linkedin {
-  color: #0077b5;
-  padding: 20px;
-}
-.fa-linkedin:hover {
-  color: lighten( #0077b5, 20% );
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-  border-bottom: none; !important
-}
-
-.fa-github-square {
-  color: #0077b5;
-  padding: 20px;
-}
-.fa-github-square:hover {
-  color: lighten( #0077b5, 20% );
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-}
-
-.fa-envelope {
-  color: #0077b5;
-  padding: 20px;
-}
-.fa-envelope:hover {
-  color: lighten( #0077b5, 20% );
-  transition-duration: 0.5s;
-  transform: scale(1.2);
-}
-
-
-.padding-100 {
-  padding: 100px;
-}
-
-.margin-50 {
-  margin: 50px 50px 50px 0px;
-}
-
-.margin-100 {
-  margin: 100px 100px 100px 100px;
-}
-.padding-btm {
-  padding-bottom: 50px;
-}
-
-.padding-top {
-  padding-top: 50px;
-}
-
-.padding-side {
-  padding-left: 100px;
-  padding-right: 100px;
+  background-color: $darkred;
 }
 
 .nav-item {
   font-weight: bold;
   font-size: 20px;
+}
+
+a {
+  color: $red;
 }
 
 a:visited {
@@ -125,77 +64,93 @@ a:visited {
 a:hover {
     color: $darkred;
     text-decoration: none;
-    border-bottom: solid 2px $darkblue;
+    border-bottom: solid 2px $offblue;
 }
 
-.hero {
+#hero {
    background-image: $bg-image;
-   height: 700px;
    background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  border-bottom: 10px solid $darkblue;
+  border-bottom: 10px solid $offblue;
+height: 700px;
  }
 
+ .nav-pills .nav-link.active {
+   background-color: $pink;
+ }
 
-.no-padding {
-  padding: 0px 0px 0px 0px;
-}
-
+ .card {
+   background-color: $offwhite;
+   border: none;
+ }
 
 .card i {
   color: $pink;
 }
 
-.nav-pills .nav-link.active {
-  background-color: $pink;
-}
-
-a {
-  color: $red;
-}
-
-.media-body {
-  padding: 40px 150px 40px 50px;
-}
-
-.card {
-  background-color: #dff9fb;
-  border: none;
-  padding: 40px;
-  margin: 0px 100px 50px 100px;
-}
-
-.badge-primary {
-  background-color: $darkblue;
-}
-
-input.form-control:focus {
-border-color: $darkblue;
-box-shadow: 0 0 0 0.2rem $sec-color;
-}
-
-textarea.form-control:focus {
-border-color: $darkblue;
-box-shadow: 0 0 0 0.2rem $sec-color;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.resume {
-  border: solid 4px;
-  box-shadow: 5px 10px #888888;
+.card i:hover {
+  color: $darkred;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
 }
 
 .card-header {
   background-color: white;
-  border: solid 2px grey;
-  box-shadow: 2px 5px grey;
+  border: solid 2px $offwhite;
+  box-shadow: 2px 5px $offblue;
 }
 
-.align-self-start{
-  border: 4px solid $darkblue;
-  box-shadow: 10px 5px $sec-color;
+.card-header:hover {
+  background-color: $darkred;
+  color: white;
+}
+
+input.form-control:focus {
+border-color: $offblue;
+box-shadow: 0 0 0 0.2rem $offwhite;
+}
+
+textarea.form-control:focus {
+border-color: $offblue;
+box-shadow: 0 0 0 0.2rem $offwhite;
+}
+
+#portrait {
+  border: 4px solid $offblue;
+  box-shadow: 10px 5px $offwhite;
+  height: 200px;
+}
+
+#footer {
+  background-color: $offwhite;
+}
+
+.fa-linkedin {
+  color: $blue;
+}
+
+.fa-linkedin:hover {
+  color: $lightblue;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+.fa-github-square {
+  color: $blue;
+
+}
+.fa-github-square:hover {
+  color: $lightblue;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+}
+
+.fa-envelope {
+  color: $blue;
+}
+.fa-envelope:hover {
+  color: $lightblue;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
 }
