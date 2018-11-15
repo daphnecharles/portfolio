@@ -3942,31 +3942,44 @@ p {
   font-weight: 200; }
 
 button {
-  background-color: #eb4d4b;
+  background-color: #f5a8a7;
   color: white; }
 
 .button:focus {
-  border-color: #bb1715;
+  border-color: #f07a79;
   outline: none; }
 
 button:hover {
-  background-color: #bb1715; }
+  background-color: #f07a79; }
 
 .nav-item {
   font-weight: bold;
   font-size: 20px; }
 
 a {
-  color: #eb4d4b; }
+  color: #f07a79; }
 
 a:visited {
-  color: #eb4d4b; }
+  color: #f07a79; }
+
+li {
+  border: solid 2px #c7ecee;
+  box-shadow: 2px 5px #79d1d6;
+  background-color: #f5a8a7; }
+
+a.nav-link {
+  color: white; }
+
+a.nav-link:hover {
+  background-color: #f07a79;
+  border-bottom: none;
+  color: white; }
 
 /* mouse over link */
 a:hover {
-  color: #bb1715;
-  text-decoration: none;
-  border-bottom: solid 2px #79d1d6; }
+  color: #f07a79;
+  border-bottom: solid 2px #79d1d6;
+  text-decoration: none; }
 
 #hero {
   background-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
@@ -3975,21 +3988,32 @@ a:hover {
   background-repeat: no-repeat;
   /* Do not repeat the image */
   background-size: cover;
-  border-bottom: 10px solid #79d1d6;
+  border-bottom: 10px solid #c7ecee;
   height: 700px; }
+
+.overlay {
+  box-shadow: inset 0 0 0 1000px rgba(236, 240, 241, 0.8); }
+
+.text-shadow {
+  text-shadow: 2px 2px 5px grey; }
+
+#portrait {
+  border: 4px solid #f07a79;
+  box-shadow: 4px 10px #f5a8a7;
+  height: 200px; }
 
 .nav-pills .nav-link.active {
   background-color: #f5a8a7; }
 
 .card {
-  background-color: #c7ecee;
+  background-color: rgba(236, 240, 241, 0.8);
   border: none; }
 
 .card i {
   color: #f5a8a7; }
 
 .card i:hover {
-  color: #bb1715;
+  color: #f07a79;
   transition-duration: 0.5s;
   transform: scale(1.2); }
 
@@ -3999,7 +4023,7 @@ a:hover {
   box-shadow: 2px 5px #79d1d6; }
 
 .card-header:hover {
-  background-color: #bb1715;
+  background-color: #f07a79;
   color: white; }
 
 input.form-control:focus {
@@ -4010,34 +4034,38 @@ textarea.form-control:focus {
   border-color: #79d1d6;
   box-shadow: 0 0 0 0.2rem #c7ecee; }
 
-#portrait {
-  border: 4px solid #79d1d6;
-  box-shadow: 10px 5px #c7ecee;
-  height: 200px; }
-
 #footer {
-  background-color: #c7ecee; }
+  background-color: rgba(236, 240, 241, 0.8); }
 
 .fa-linkedin {
-  color: #0077b5; }
+  color: #79d1d6; }
 
 .fa-linkedin:hover {
-  color: #1cb1ff;
+  color: #36acb3;
   transition-duration: 0.5s;
   transform: scale(1.2); }
 
 .fa-github-square {
-  color: #0077b5; }
+  color: #79d1d6; }
 
 .fa-github-square:hover {
-  color: #1cb1ff;
+  color: #36acb3;
   transition-duration: 0.5s;
   transform: scale(1.2); }
 
 .fa-envelope {
-  color: #0077b5; }
+  color: #79d1d6; }
 
 .fa-envelope:hover {
-  color: #1cb1ff;
+  color: #36acb3;
   transition-duration: 0.5s;
   transform: scale(1.2); }
+
+a.social-link {
+  border-bottom: none; }
+
+.fa-circle {
+  color: white; }
+
+h5.card-title {
+  color: #36acb3; }

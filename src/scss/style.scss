@@ -6,16 +6,14 @@ $fa-font-path: "../webfonts";
 
 
 
+
 $offwhite: #c7ecee;
 $offblue: darken( $offwhite, 20% );
+$darkblue: darken( $offblue, 20% );
 
 $red: #eb4d4b;
-$darkred: darken( $red, 20% );
-$darkerred: darken( $darkred, 20% );
 $pink: lighten( $red, 20% );
-
-$blue: #0077b5;
-$lightblue: lighten( $blue, 20% );
+$darkpink: darken( $pink, 10% );
 
 $bg-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
 
@@ -34,17 +32,17 @@ p {
 }
 
 button {
-  background-color: $red;
+  background-color: $pink;
   color: white;
 }
 
 .button:focus {
-  border-color: $darkred;
+  border-color: $darkpink;
   outline: none;
 }
 
 button:hover {
-  background-color: $darkred;
+  background-color: $darkpink;
 }
 
 .nav-item {
@@ -53,18 +51,34 @@ button:hover {
 }
 
 a {
-  color: $red;
+  color: $darkpink;
 }
 
 a:visited {
-    color: $red;
+    color: $darkpink;
+}
+
+li {
+  border: solid 2px $offwhite;
+  box-shadow: 2px 5px $offblue;
+  background-color: $pink;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  background-color: $darkpink;
+  border-bottom: none;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-    color: $darkred;
-    text-decoration: none;
+    color: $darkpink;
     border-bottom: solid 2px $offblue;
+    text-decoration: none;
 }
 
 #hero {
@@ -72,8 +86,22 @@ a:hover {
    background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  border-bottom: 10px solid $offblue;
+  border-bottom: 10px solid $offwhite;
 height: 700px;
+ }
+
+ .overlay {
+   box-shadow: inset 0 0 0 1000px rgba(236, 240, 241, 0.8);
+ }
+
+.text-shadow {
+  text-shadow: 2px 2px 5px grey;
+}
+
+ #portrait {
+   border: 4px solid $darkpink;
+   box-shadow: 4px 10px $pink;
+   height: 200px;
  }
 
  .nav-pills .nav-link.active {
@@ -81,7 +109,7 @@ height: 700px;
  }
 
  .card {
-   background-color: $offwhite;
+   background-color: rgba(236, 240, 241, 0.8);
    border: none;
  }
 
@@ -90,7 +118,7 @@ height: 700px;
 }
 
 .card i:hover {
-  color: $darkred;
+  color: $darkpink;
   transition-duration: 0.5s;
   transform: scale(1.2);
 }
@@ -102,7 +130,7 @@ height: 700px;
 }
 
 .card-header:hover {
-  background-color: $darkred;
+  background-color: $darkpink;
   color: white;
 }
 
@@ -116,41 +144,51 @@ border-color: $offblue;
 box-shadow: 0 0 0 0.2rem $offwhite;
 }
 
-#portrait {
-  border: 4px solid $offblue;
-  box-shadow: 10px 5px $offwhite;
-  height: 200px;
-}
+
 
 #footer {
-  background-color: $offwhite;
+  background-color: rgba(236, 240, 241, 0.8);
 }
 
+
+
 .fa-linkedin {
-  color: $blue;
+  color: $offblue;
 }
 
 .fa-linkedin:hover {
-  color: $lightblue;
+  color: $darkblue;
   transition-duration: 0.5s;
   transform: scale(1.2);
 }
 
 .fa-github-square {
-  color: $blue;
+  color: $offblue;
 
 }
 .fa-github-square:hover {
-  color: $lightblue;
+  color: $darkblue;
   transition-duration: 0.5s;
   transform: scale(1.2);
 }
 
 .fa-envelope {
-  color: $blue;
+  color: $offblue;
 }
 .fa-envelope:hover {
-  color: $lightblue;
+  color: $darkblue;
   transition-duration: 0.5s;
   transform: scale(1.2);
+}
+
+a.social-link {
+  border-bottom: none;
+}
+
+.fa-circle {
+  color: white;
+}
+
+h5.card-title {
+  color: $darkblue;
 }
