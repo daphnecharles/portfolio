@@ -3931,6 +3931,17 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+.table .thead-dark th {
+  color: #fff;
+  background-color: #f5a8a7;
+  border-color: #f07a79; }
+
+.table-hover tbody tr:hover {
+  background-color: rgba(236, 240, 241, 0.8); }
+
+.table {
+  border: groove 2px; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -4007,7 +4018,7 @@ a:hover {
 
 .card {
   background-color: rgba(236, 240, 241, 0.8);
-  border: none; }
+  border: groove 2px; }
 
 .card i {
   color: #f5a8a7; }
@@ -4036,6 +4047,9 @@ textarea.form-control:focus {
 
 #footer {
   background-color: rgba(236, 240, 241, 0.8); }
+
+#copyright {
+  background-color: #b1c2c6; }
 
 .fa-linkedin {
   color: #79d1d6; }

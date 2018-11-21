@@ -17,6 +17,18 @@ $darkpink: darken( $pink, 10% );
 
 $bg-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
 
+.table .thead-dark th {
+    color: #fff;
+    background-color: $pink;
+    border-color: $darkpink;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(236, 240, 241, 0.8);
+  }
+  .table {
+    border: groove 2px;
+  }
 
 html {
   scroll-behavior: smooth;
@@ -110,7 +122,7 @@ height: 700px;
 
  .card {
    background-color: rgba(236, 240, 241, 0.8);
-   border: none;
+   border: groove 2px;
  }
 
 .card i {
@@ -148,6 +160,10 @@ box-shadow: 0 0 0 0.2rem $offwhite;
 
 #footer {
   background-color: rgba(236, 240, 241, 0.8);
+}
+
+#copyright {
+  background-color: darken(rgba(236, 240, 241, 3), 20%);
 }
 
 
