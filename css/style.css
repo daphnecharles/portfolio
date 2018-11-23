@@ -3931,6 +3931,9 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+.fa-arrow-down:hover {
+  color: #f5a8a7; }
+
 .table .thead-dark th {
   color: #fff;
   background-color: #f5a8a7;
@@ -3976,10 +3979,10 @@ a:visited {
 li {
   border: solid 2px #c7ecee;
   box-shadow: 2px 5px #79d1d6;
-  background-color: #f5a8a7; }
+  background-color: white; }
 
 a.nav-link {
-  color: white; }
+  color: #36acb3; }
 
 a.nav-link:hover {
   background-color: #f07a79;
@@ -3992,33 +3995,30 @@ a:hover {
   border-bottom: solid 2px #79d1d6;
   text-decoration: none; }
 
-#hero {
-  background-image: url(assets/jesus-kiteque-224069-unsplash.jpg);
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  border-bottom: 10px solid #c7ecee;
-  height: 700px; }
-
-.overlay {
-  box-shadow: inset 0 0 0 600px rgba(236, 240, 241, 0.8); }
-
 .text-shadow {
-  text-shadow: 2px 2px 5px grey; }
+  text-shadow: 2px 2px #79d1d6; }
+
+#home {
+  height: 700px;
+  color: white;
+  background-image: linear-gradient(#c7ecee, #79d1d6); }
 
 #portrait {
-  border: 4px solid #f07a79;
-  box-shadow: 4px 10px #f5a8a7;
-  height: 250px; }
+  height: 250px;
+  border: 5px outset;
+  border-color: #79d1d6; }
+
+#portrait:hover {
+  transition: .7s;
+  border-color: pink; }
 
 .nav-pills .nav-link.active {
   background-color: #f5a8a7; }
 
 .card {
   background-color: rgba(236, 240, 241, 0.8);
-  border: groove 2px; }
+  border: none;
+  box-shadow: #ecf0f1 2px 2px 10px 5px; }
 
 .card i {
   color: #f5a8a7; }
@@ -4049,7 +4049,8 @@ textarea.form-control:focus {
   background-color: rgba(236, 240, 241, 0.8); }
 
 #copyright {
-  background-color: #b1c2c6; }
+  background-color: rgba(236, 240, 241, 0.8);
+  color: #94aab0; }
 
 .fa-linkedin {
   color: #79d1d6; }
@@ -4082,4 +4083,7 @@ a.social-link {
   color: white; }
 
 h5.card-title {
+  color: #79d1d6; }
+
+h3.card-title {
   color: #36acb3; }
