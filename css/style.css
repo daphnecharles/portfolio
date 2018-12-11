@@ -3931,8 +3931,11 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
-.fa-arrow-down:hover {
+.fa-arrow-down {
   color: #f5a8a7; }
+
+.fa-arrow-down:hover {
+  color: #f07a79; }
 
 .table .thead-dark th {
   color: #fff;
@@ -3949,22 +3952,24 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fefefe;
+  color: #1a1a1a; }
 
 p {
   font-size: 18px;
   font-weight: 200; }
 
 button {
-  background-color: #f5a8a7;
+  background-color: #79d1d6;
   color: white; }
 
 .button:focus {
-  border-color: #f07a79;
+  border-color: #36acb3;
   outline: none; }
 
 button:hover {
-  background-color: #f07a79; }
+  background-color: #36acb3; }
 
 .nav-item {
   font-weight: bold;
@@ -4001,16 +4006,16 @@ a:hover {
 #home {
   height: 700px;
   color: white;
-  background-image: linear-gradient(#c7ecee, #79d1d6); }
+  background-image: linear-gradient(to bottom, #c7ecee, #b9e7ea, #abe2e5, #9ddde1, #8ed8dc, #82d3d7, #77cdd2, #6ac8cd, #5ec1c6, #52bac0, #45b3b9, #36acb3); }
 
 #portrait {
-  height: 250px;
-  border: 5px outset;
-  border-color: #79d1d6; }
+  height: 250px; }
 
-#portrait:hover {
-  transition: .7s;
-  border-color: pink; }
+#skills {
+  background-image: url(/css/assets/pipes.png); }
+
+#employment {
+  background-image: url(/css/assets/pipes.png); }
 
 .nav-pills .nav-link.active {
   background-color: #f5a8a7; }
@@ -4018,7 +4023,7 @@ a:hover {
 .card {
   background-color: rgba(236, 240, 241, 0.8);
   border: none;
-  box-shadow: #ecf0f1 2px 2px 10px 5px; }
+  box-shadow: #ecf0f1 2px 2px 5px 5px; }
 
 .card i {
   color: #f5a8a7; }
@@ -4053,26 +4058,26 @@ textarea.form-control:focus {
   color: #94aab0; }
 
 .fa-linkedin {
-  color: #79d1d6; }
+  color: #f5a8a7; }
 
 .fa-linkedin:hover {
-  color: #36acb3;
+  color: #f07a79;
   transition-duration: 0.5s;
   transform: scale(1.2); }
 
 .fa-github-square {
-  color: #79d1d6; }
+  color: #f5a8a7; }
 
 .fa-github-square:hover {
-  color: #36acb3;
+  color: #f07a79;
   transition-duration: 0.5s;
   transform: scale(1.2); }
 
 .fa-envelope {
-  color: #79d1d6; }
+  color: #f5a8a7; }
 
 .fa-envelope:hover {
-  color: #36acb3;
+  color: #f07a79;
   transition-duration: 0.5s;
   transform: scale(1.2); }
 
