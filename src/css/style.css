@@ -3961,15 +3961,15 @@ p {
   font-weight: 200; }
 
 button {
-  background-color: #79d1d6;
+  background-color: #f07a79;
   color: white; }
 
 .button:focus {
-  border-color: #36acb3;
+  border-color: #f5a8a7;
   outline: none; }
 
 button:hover {
-  background-color: #36acb3; }
+  background-color: #f5a8a7; }
 
 .nav-item {
   font-weight: bold;
@@ -4011,11 +4011,33 @@ a:hover {
 #portrait {
   height: 250px; }
 
-#skills {
+#about {
   background-image: url(/css/assets/pipes.png); }
 
-#employment {
+#about-col {
+  background-color: rgba(236, 240, 241, 0.1); }
+
+#education {
   background-image: url(/css/assets/pipes.png); }
+
+#education-col {
+  background-color: rgba(236, 240, 241, 0.1); }
+
+#contact {
+  background-image: url(/css/assets/pipes.png); }
+
+#contact-col {
+  background-color: rgba(236, 240, 241, 0.1); }
+
+#intro-col {
+  background-color: white;
+  padding: 20px;
+  border: solid 3px grey; }
+
+#outro-col {
+  background-color: white;
+  padding: 20px;
+  border: solid 3px grey; }
 
 .nav-pills .nav-link.active {
   background-color: #f5a8a7; }
@@ -4051,11 +4073,20 @@ textarea.form-control:focus {
   box-shadow: 0 0 0 0.2rem #c7ecee; }
 
 #footer {
-  background-color: rgba(236, 240, 241, 0.8); }
+  background-color: #79d1d6; }
+
+.footer-links {
+  color: white; }
+
+.footer-links:visited {
+  color: white; }
+
+.footer-links:hover {
+  color: white; }
 
 #copyright {
-  background-color: rgba(236, 240, 241, 0.8);
-  color: #94aab0; }
+  background-color: #36acb3;
+  color: white; }
 
 .fa-linkedin {
   color: #f5a8a7; }
@@ -4088,7 +4119,7 @@ a.social-link {
   color: white; }
 
 h5.card-title {
-  color: #79d1d6; }
+  color: #36acb3; }
 
 h3.card-title {
   color: #36acb3; }
