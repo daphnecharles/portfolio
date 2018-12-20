@@ -58,17 +58,17 @@ p {
 }
 
 button {
-  background-color: $offblue;
+  background-color: $darkpink;
   color: white;
 }
 
 .button:focus {
-  border-color: $darkblue;
+  border-color: $pink;
   outline: none;
 }
 
 button:hover {
-  background-color: $darkblue;
+  background-color: $pink;
 }
 
 .nav-item {
@@ -122,18 +122,51 @@ a:hover {
  }
 
  #about {
-   // background-image: url(/css/assets/pipes.png);
+   background-image: url(/css/assets/pipes.png);
+ }
+
+ #about-col {
+   background-color: rgba(236, 240, 241, 0.1);
  }
 
 #skills {
+  // background-image: url(/css/assets/pipes.png);
+}
+
+#education {
   background-image: url(/css/assets/pipes.png);
+}
+
+#education-col {
+  background-color: rgba(236, 240, 241, 0.1);
 }
 
 #employment {
+  // background-image: url(/css/assets/pipes.png);
+}
+
+#contact {
+
   background-image: url(/css/assets/pipes.png);
+
+}
+
+#contact-col {
+  background-color: rgba(236, 240, 241, 0.1);
+}
+
+#intro-col {
+  background-color: white;
+  padding: 20px;
+  border: solid 3px grey;
 }
 
 
+#outro-col {
+  background-color: white;
+  padding: 20px;
+  border: solid 3px grey;
+}
  .nav-pills .nav-link.active {
    background-color: $pink;
  }
@@ -178,12 +211,24 @@ box-shadow: 0 0 0 0.2rem $offwhite;
 
 
 #footer {
-  background-color: rgba(236, 240, 241, 0.8);
+  background-color: $offblue;
+}
+
+.footer-links {
+  color:white;
+}
+
+.footer-links:visited {
+  color:white;
+}
+
+.footer-links:hover {
+  color:white;
 }
 
 #copyright {
-  background-color: rgba(236, 240, 241, 0.8);
-  color: darken(rgba(236, 240, 241, 3), 30%);
+  background-color: $darkblue;
+  color: white;
 }
 
 
@@ -226,7 +271,7 @@ a.social-link {
 }
 
 h5.card-title {
-  color: $offblue;
+  color: $darkblue;
 }
 
 h3.card-title {
