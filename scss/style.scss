@@ -80,6 +80,21 @@ a {
   color: $darkpink;
 }
 
+a.btn.btn-primary {
+  background-color: $darkpink;
+  color: white;
+  border: none;
+}
+
+a.btn.btn-primary:focus {
+  border-color: $pink;
+  outline: none;
+}
+
+a.btn.btn-primary:hover {
+  background-color: $pink;
+}
+
 a:visited {
     color: $darkpink;
 }
@@ -140,21 +155,18 @@ a:hover {
 }
 
 
-
-#contact {
-
-  background-image: url(assets/pipes.png);
-
-}
-
-#contact-col {
-  background-color: rgba(236, 240, 241, 0.1);
-}
-
 #intro-col {
   background-color: white;
   padding: 20px;
   border: solid 3px grey;
+}
+
+#projects {
+  background-image: url(assets/pipes.png);
+}
+
+#projects-col {
+  background-color: rgba(236, 240, 241, 0.1);
 }
 
 
