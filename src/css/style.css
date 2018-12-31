@@ -3978,6 +3978,18 @@ button:hover {
 a {
   color: #f07a79; }
 
+a.btn.btn-primary {
+  background-color: #f07a79;
+  color: white;
+  border: none; }
+
+a.btn.btn-primary:focus {
+  border-color: #f5a8a7;
+  outline: none; }
+
+a.btn.btn-primary:hover {
+  background-color: #f5a8a7; }
+
 a:visited {
   color: #f07a79; }
 
@@ -4023,16 +4035,16 @@ a:hover {
 #education-col {
   background-color: rgba(236, 240, 241, 0.1); }
 
-#contact {
-  background-image: url(assets/pipes.png); }
-
-#contact-col {
-  background-color: rgba(236, 240, 241, 0.1); }
-
 #intro-col {
   background-color: white;
   padding: 20px;
   border: solid 3px grey; }
+
+#projects {
+  background-image: url(assets/pipes.png); }
+
+#projects-col {
+  background-color: rgba(236, 240, 241, 0.1); }
 
 #outro-col {
   background-color: white;
