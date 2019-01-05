@@ -144,8 +144,6 @@ a:hover {
    background-color: rgba(236, 240, 241, 0.1);
  }
 
-
-
 #education {
   background-image: url(assets/pipes.png);
 }
@@ -158,7 +156,7 @@ a:hover {
 #intro-col {
   background-color: white;
   padding: 20px;
-  border: solid 3px grey;
+  border: solid 3px $blue;
 }
 
 #projects {
