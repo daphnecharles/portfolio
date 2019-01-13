@@ -136,21 +136,21 @@ a:hover {
    height: 250px;
  }
 
- #about {
-   background-image: url(assets/pipes.png);
- }
-
- #about-col {
-   background-color: rgba(236, 240, 241, 0.1);
- }
-
-#education {
-  background-image: url(assets/pipes.png);
-}
-
-#education-col {
-  background-color: rgba(236, 240, 241, 0.1);
-}
+//  #about {
+//    background-image: url(assets/pipes.png);
+//  }
+//
+//  #about-col {
+//    background-color: rgba(236, 240, 241, 0.1);
+//  }
+//
+// #education {
+//   background-image: url(assets/pipes.png);
+// }
+//
+// #education-col {
+//   background-color: rgba(236, 240, 241, 0.1);
+// }
 
 
 #intro-col {
@@ -159,13 +159,13 @@ a:hover {
   border: solid 3px $blue;
 }
 
-#projects {
-  background-image: url(assets/pipes.png);
-}
-
-#projects-col {
-  background-color: rgba(236, 240, 241, 0.1);
-}
+// #projects {
+//   background-image: url(assets/pipes.png);
+// }
+//
+// #projects-col {
+//   background-color: rgba(236, 240, 241, 0.1);
+// }
 
 
 #outro-col {
@@ -217,7 +217,7 @@ box-shadow: 0 0 0 0.2rem $offwhite;
 
 
 #footer {
-  background-color: $offblue;
+  background-color: $darkblue;
 }
 
 .footer-links {
