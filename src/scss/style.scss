@@ -136,21 +136,6 @@ a:hover {
    height: 250px;
  }
 
-//  #about {
-//    background-image: url(assets/pipes.png);
-//  }
-//
-//  #about-col {
-//    background-color: rgba(236, 240, 241, 0.1);
-//  }
-//
-// #education {
-//   background-image: url(assets/pipes.png);
-// }
-//
-// #education-col {
-//   background-color: rgba(236, 240, 241, 0.1);
-// }
 
 
 #intro-col {
@@ -158,14 +143,6 @@ a:hover {
   padding: 20px;
   border: solid 3px $blue;
 }
-
-// #projects {
-//   background-image: url(assets/pipes.png);
-// }
-//
-// #projects-col {
-//   background-color: rgba(236, 240, 241, 0.1);
-// }
 
 
 #outro-col {
@@ -180,7 +157,7 @@ a:hover {
  .card {
    background-color: rgba(236, 240, 241, 0.8);
    border: none;
-   box-shadow: rgb(236, 240, 241) 2px 2px 5px 5px;
+   box-shadow: rgb(236, 240, 241) 2px 2px 2px 2px;
  }
 
 .card i {
