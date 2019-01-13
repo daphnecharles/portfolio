@@ -4039,7 +4039,7 @@ a:hover {
 .card {
   background-color: rgba(236, 240, 241, 0.8);
   border: none;
-  box-shadow: #ecf0f1 2px 2px 5px 5px; }
+  box-shadow: #ecf0f1 2px 2px 2px 2px; }
 
 .card i {
   color: #f5a8a7; }
